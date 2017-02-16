@@ -3,6 +3,13 @@ Search for EC2 instances
 
 Supports multiple accounts, mutifactor authentication, and cross-account "assume_role" authentication
 
+##pre requisition:
+
+- brew install awscli
+- aws configure => set access key, secret key and output("text")
+- sudo pip install --ignore-installed six boto3
+- sudo pip install click
+
 ##Usage:
 
 This workflow contains several entry points:
