@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string></string>
 	<key>category</key>
-	<string>Tools</string>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>04C0B3B7-C39D-49DF-A47B-7BD992788E42</key>
@@ -330,9 +330,9 @@
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
-				<true/>
+				<false/>
 				<key>queuedelaymode</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
@@ -464,7 +464,7 @@ echo $?</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>echo -n "{query}" &gt; caches/last-output.cache</string>
+				<string>echo -n '{query}' &gt; caches/last-output.cache</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -737,9 +737,9 @@ EOF</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
-				<true/>
+				<false/>
 				<key>queuedelaymode</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
@@ -958,7 +958,7 @@ You can modify the default output field and the instance attributes in the title
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>2.0.2</string>
+	<string>2.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/maxrothman/aws-alfred-workflow</string>
 </dict>
